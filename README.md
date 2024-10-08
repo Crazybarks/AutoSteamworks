@@ -49,7 +49,7 @@ Configurable Parts - AutoSteamApp.exe.config
 
 Please use the Github page to ask for features, it is easier to track.
 
-﻿#Contributors & Credits:
+﻿# Contributors & Credits:
 
 [AdiBorsos](https://github.com/AdiBorsos/AutoSteamworks)
 - Made the original repository and program!
