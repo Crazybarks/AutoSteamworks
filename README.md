@@ -1,6 +1,6 @@
 # Auto Steamworks Exec
-Supported version: 421470 (V15.11.00)
-App Version: 18.0
+Supported version: 421810 (V15.23.00)
+App Version: 20.0
 
 Functionality
 Reads game memory and finds the "expected" key pattern that the Steamworks needs and then Types that pattern.
@@ -45,11 +45,22 @@ Configurable Parts - AutoSteamApp.exe.config
 7. KeyCodeStop - allows to bind other key for Stopping the App - default is "35" - 'End' button
 8. KeyCutsceneSkip - allows to bind other key for Cutscene/Animation skip - must match the controls set in game at System > Options > Controls > Keyboard Settings > Menu Control > "Use or Register Loadout / Cancel Animation" - default is "88" - 'X' button
 
-Open Source code for you to make it better if you want: [Code might not be stable all the time] https://github.com/AdiBorsos/AutoSteamworks
+(Original) Open Source code for you to make it better if you want: [Code might not be stable all the time] https://github.com/AdiBorsos/AutoSteamworks
 
 Please use the Github page to ask for features, it is easier to track.
 
 ﻿#Contributors & Credits:
+
+[AdiBorsos](https://github.com/AdiBorsos/AutoSteamworks)
+- Made the original repository and program!
+
+[RedAsteroid](https://github.com/RedAsteroid/AutoSteamworks)
+- Provided the update from 15.11.00 to 15.20.00
+- Found the new Slot nr memory address
+
+CrazyBarks
+- Hey, that's me!
+- Updated the program to function with the latest 15.23.00 update
 ﻿
 Geobryn﻿ 
 - Made it 100% accurate without writing memory
@@ -62,4 +73,7 @@ Thx for spreading love through open source:
 * [r00telement](https://github.com/r00telement/SmartHunter) 
 * [gabrielefilipp](https://github.com/gabrielefilipp/SmartHunter)
 
-# Pull requests are welcome.
+# Pull requests are welcome. (but may not be seen)
+
+
+Literally learned how to find these memory addresses and build versions only to spite Capcom for changing the memory values of so many unrelated facets of the game, only to add just an advertisement for Wilds on the title screen. To quote AsteriskAmpersand, "May they rot in hell, and reap what they sew" [sic]
