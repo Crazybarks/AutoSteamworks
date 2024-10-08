@@ -3,19 +3,21 @@ Supported version: 421810 (V15.23.00)
 App Version: 20.0
 
 Functionality
-Reads game memory and finds the "expected" key pattern that the Steamworks needs and then Types that pattern.
-Restarts automatically when the Steamworks game is over IF if you have enough fuel and skips animations if setup correctly (presses X - the default animation cancel keyboard button)
-Stops automatically if you are out of fuel or you press the stop button.
-Random Pattern clicking if the app is out of date - checks game version against internal version - This provides random results of course, but better than nothing until app is updated.
+* Reads game memory and finds the "expected" key pattern that the Steamworks needs and then Types that pattern.
+* Restarts automatically when the Steamworks game is over IF if you have enough fuel and skips animations if setup correctly (presses X - the default animation cancel keyboard button)
+* Stops automatically if you are out of fuel or you press the stop button.
+* Random Pattern clicking if the app is out of date - checks game version against internal version - This provides random results of course, but better than nothing until app is updated.
 
-Introduced a menu to chose what type of run you want.
+Introduced a menu to choose what type of run you want.
 
-[*New*] 
+[*New*]
+
 Possibility to choose:
 	- Configurable value **ShouldConsumeAllFuel** added to AutoSteamApp.exe.config option was added to setup using ALL the fuel or Only the Natural Fuel
 	- Default value is **true**
 	
-[*New*] 
+[*New*]
+
 Do a smart RANDOM run:
 	- New functionality to do a RANDOM run - this will give random results, as no memory reading is happening. 
 	- The other functions of the application will still work (fuel checking, automatic stop and restart etc). 
@@ -45,7 +47,7 @@ Configurable Parts - AutoSteamApp.exe.config
 7. KeyCodeStop - allows to bind other key for Stopping the App - default is "35" - 'End' button
 8. KeyCutsceneSkip - allows to bind other key for Cutscene/Animation skip - must match the controls set in game at System > Options > Controls > Keyboard Settings > Menu Control > "Use or Register Loadout / Cancel Animation" - default is "88" - 'X' button
 
-(Original) Open Source code for you to make it better if you want: [Code might not be stable all the time] https://github.com/AdiBorsos/AutoSteamworks
+(Original) Open Source code for you to make it better if you want: [Code might not be stable all the time](https://github.com/AdiBorsos/AutoSteamworks)
 
 Please use the Github page to ask for features, it is easier to track.
 
